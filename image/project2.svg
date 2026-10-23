@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="450" fill="#0f1320"/>
+
+  <!-- browser bar -->
+  <rect width="800" height="36" fill="#131827"/>
+  <circle cx="20" cy="18" r="5" fill="#e63946"/><circle cx="38" cy="18" r="5" fill="#f4a261"/><circle cx="56" cy="18" r="5" fill="#2a9d8f"/>
+  <rect x="90" y="8" width="320" height="20" rx="10" fill="#1e2235"/>
+  <text x="104" y="22" fill="#9aa0b4" font-size="11">taskflow.local/board</text>
+
+  <!-- header -->
+  <text x="30" y="70" fill="#ffffff" font-size="20" font-weight="700">Website Redesign Sprint</text>
+  <text x="30" y="88" fill="#9aa0b4" font-size="11">Sprint 4 · Oct 20 – Nov 3 · 12 tasks</text>
+  <circle cx="560" cy="68" r="14" fill="#e63946"/><text x="554" y="73" fill="#fff" font-size="11" font-weight="700">KT</text>
+  <circle cx="586" cy="68" r="14" fill="#2a9d8f"/><text x="580" y="73" fill="#fff" font-size="11" font-weight="700">MR</text>
+  <circle cx="612" cy="68" r="14" fill="#f4a261"/><text x="606" y="73" fill="#fff" font-size="11" font-weight="700">JD</text>
+  <rect x="650" y="52" width="120" height="32" rx="8" fill="#e63946"/>
+  <text x="670" y="73" fill="#ffffff" font-size="13" font-weight="700">+ New Task</text>
+
+  <!-- TO DO -->
+  <rect x="30" y="108" width="236" height="320" rx="12" fill="#131827" stroke="#1e2235"/>
+  <text x="46" y="134" fill="#ff6b6b" font-size="13" font-weight="700">TO DO</text>
+  <text x="236" y="134" fill="#9aa0b4" font-size="12">4</text>
+
+  <rect x="44" y="148" width="208" height="68" rx="8" fill="#1e2235"/>
+  <rect x="54" y="158" width="44" height="14" rx="7" fill="#e63946"/><text x="62" y="169" fill="#fff" font-size="9" font-weight="700">HIGH</text>
+  <text x="54" y="190" fill="#ffffff" font-size="12" font-weight="700">Design login page</text>
+  <text x="54" y="206" fill="#9aa0b4" font-size="10">Due Oct 28</text>
+  <circle cx="232" cy="198" r="9" fill="#e63946"/><text x="227" y="202" fill="#fff" font-size="8" font-weight="700">KT</text>
+
+  <rect x="44" y="226" width="208" height="68" rx="8" fill="#1e2235"/>
+  <rect x="54" y="236" width="58" height="14" rx="7" fill="#f4a261"/><text x="62" y="247" fill="#fff" font-size="9" font-weight="700">MEDIUM</text>
+  <text x="54" y="268" fill="#ffffff" font-size="12" font-weight="700">Set up user roles</text>
+  <text x="54" y="284" fill="#9aa0b4" font-size="10">Due Oct 30</text>
+  <circle cx="232" cy="276" r="9" fill="#2a9d8f"/><text x="227" y="280" fill="#fff" font-size="8" font-weight="700">MR</text>
+
+  <rect x="44" y="304" width="208" height="68" rx="8" fill="#1e2235"/>
+  <rect x="54" y="314" width="44" height="14" rx="7" fill="#2a9d8f"/><text x="63" y="325" fill="#fff" font-size="9" font-weight="700">LOW</text>
+  <text x="54" y="346" fill="#ffffff" font-size="12" font-weight="700">Write API docs</text>
+  <text x="54" y="362" fill="#9aa0b4" font-size="10">Due Nov 2</text>
+  <circle cx="232" cy="354" r="9" fill="#f4a261"/><text x="227" y="358" fill="#fff" font-size="8" font-weight="700">JD</text>
+
+  <!-- IN PROGRESS -->
+  <rect x="282" y="108" width="236" height="320" rx="12" fill="#131827" stroke="#1e2235"/>
+  <text x="298" y="134" fill="#f4a261" font-size="13" font-weight="700">IN PROGRESS</text>
+  <text x="488" y="134" fill="#9aa0b4" font-size="12">3</text>
+
+  <rect x="296" y="148" width="208" height="84" rx="8" fill="#1e2235"/>
+  <rect x="306" y="158" width="44" height="14" rx="7" fill="#e63946"/><text x="314" y="169" fill="#fff" font-size="9" font-weight="700">HIGH</text>
+  <text x="306" y="190" fill="#ffffff" font-size="12" font-weight="700">Build checkout API</text>
+  <rect x="306" y="200" width="188" height="6" rx="3" fill="#0f1320"/>
+  <rect x="306" y="200" width="122" height="6" rx="3" fill="#f4a261"/>
+  <text x="306" y="222" fill="#9aa0b4" font-size="10">65% · Due Oct 29</text>
+  <circle cx="484" cy="216" r="9" fill="#2a9d8f"/><text x="479" y="220" fill="#fff" font-size="8" font-weight="700">MR</text>
+
+  <rect x="296" y="242" width="208" height="84" rx="8" fill="#1e2235"/>
+  <rect x="306" y="252" width="58" height="14" rx="7" fill="#f4a261"/><text x="314" y="263" fill="#fff" font-size="9" font-weight="700">MEDIUM</text>
+  <text x="306" y="284" fill="#ffffff" font-size="12" font-weight="700">Responsive navbar</text>
+  <rect x="306" y="294" width="188" height="6" rx="3" fill="#0f1320"/>
+  <rect x="306" y="294" width="75" height="6" rx="3" fill="#f4a261"/>
+  <text x="306" y="316" fill="#9aa0b4" font-size="10">40% · Due Oct 31</text>
+  <circle cx="484" cy="310" r="9" fill="#e63946"/><text x="479" y="314" fill="#fff" font-size="8" font-weight="700">KT</text>
+
+  <rect x="296" y="336" width="208" height="76" rx="8" fill="#1e2235"/>
+  <rect x="306" y="346" width="44" height="14" rx="7" fill="#2a9d8f"/><text x="315" y="357" fill="#fff" font-size="9" font-weight="700">LOW</text>
+  <text x="306" y="378" fill="#ffffff" font-size="12" font-weight="700">Fix footer links</text>
+  <text x="306" y="396" fill="#9aa0b4" font-size="10">20% · Due Nov 1</text>
+
+  <!-- DONE -->
+  <rect x="534" y="108" width="236" height="320" rx="12" fill="#131827" stroke="#1e2235"/>
+  <text x="550" y="134" fill="#2a9d8f" font-size="13" font-weight="700">DONE</text>
+  <text x="740" y="134" fill="#9aa0b4" font-size="12">5</text>
+
+  <rect x="548" y="148" width="208" height="62" rx="8" fill="#1e2235"/>
+  <text x="558" y="172" fill="#ffffff" font-size="12" font-weight="700">Set up database schema</text>
+  <text x="558" y="192" fill="#9aa0b4" font-size="10">Completed Oct 22</text>
+  <circle cx="736" cy="182" r="9" fill="#2a9d8f"/><text x="731" y="186" fill="#fff" font-size="9" font-weight="700">✓</text>
+
+  <rect x="548" y="220" width="208" height="62" rx="8" fill="#1e2235"/>
+  <text x="558" y="244" fill="#ffffff" font-size="12" font-weight="700">User registration form</text>
+  <text x="558" y="264" fill="#9aa0b4" font-size="10">Completed Oct 24</text>
+  <circle cx="736" cy="254" r="9" fill="#2a9d8f"/><text x="731" y="258" fill="#fff" font-size="9" font-weight="700">✓</text>
+
+  <rect x="548" y="292" width="208" height="62" rx="8" fill="#1e2235"/>
+  <text x="558" y="316" fill="#ffffff" font-size="12" font-weight="700">Project folder structure</text>
+  <text x="558" y="336" fill="#9aa0b4" font-size="10">Completed Oct 21</text>
+  <circle cx="736" cy="326" r="9" fill="#2a9d8f"/><text x="731" y="330" fill="#fff" font-size="9" font-weight="700">✓</text>
+</svg>
