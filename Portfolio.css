@@ -1,4 +1,183 @@
+body {
+  font-family:"Trebuchet MS", verdana, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #060407, #221932, #541533);
+  background-attachment: fixed;
+  color:white;  
+}
 
+html {
+  scroll-padding-top: 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  position: sticky;
+  top: 0;
+  z-index:150; 
+  background-color:#221932;
+  
+}
+
+.logo_container {
+  display: flex;
+  flex-direction: column;
+}
+.logo_name {
+  text-decoration: none;
+  font-weight: bold;
+  color:rgba(235, 204, 204, 0.952);
+
+}
+.logo_title {
+  font-size: 18px;
+  font-style: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;  
+  color: #af99d1f6;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 3px ;
+  padding: 15px ; 
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+   color:rgba(218, 190, 190, 0.932);
+}
+.nav_rightSide {
+  padding: 5px 10px;
+  border-radius: 15px;
+   background-color: #682c47;
+  border: 2px solid #907caf;
+  box-shadow: 0px 0px 10px #9580b4;
+  color:rgba(192, 113, 113, 0.884);
+}
+
+.btn_hire {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.home_section {
+  position: relative;
+  isolation: isolate;
+  height: 600px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.home_section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: url("image/bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-mask-image: linear-gradient(to bottom, #000 60%, transparent);
+  mask-image: linear-gradient(to bottom, #000 60%, transparent);
+}
+.home_section > *:not(.photo_box) {
+  position: relative;
+  z-index: 2;
+  max-width: 50%;
+  margin-left: 60px;
+}
+
+.greeting {
+  font-size: 30px;
+  font-family:   "Trebuchet MS", verdana, sans-serif;
+  color: #a67db3f6;
+}
+
+.my_fN {
+  margin: 1px;;
+  color: #9882B9;
+  font-size: 35px;
+}
+
+.title {
+  margin: 4px 0 12px;
+}
+
+.tagline {
+  margin: 0 0 20px;
+  color: #d9cfe8;
+}
+
+.photo_box {
+  position: absolute;
+  right: 60px;
+  bottom: 0;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.circle {
+  position: absolute;
+  bottom: 12%;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #9882B9, #722548);
+}
+
+.my_photo {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn_primary,
+.btn_outline {
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn_primary {
+  background: linear-gradient(135deg, #722548, #775E88);
+}
+
+.btn_outline {
+  border: 1px solid #9882B9;
+}
+
+.tech_icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.tech_label {
+  flex-basis: 100%;
+  margin: 0;
+  color: #9882B9;
+}
 .tech_icon {
   width: 40px;
   height: 40px;
